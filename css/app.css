@@ -241,4 +241,16 @@ a {
 
 }
 
+@media (max-width: 576px) {
 
+  /* HEADER */
+
+  .container {
+    width: 100%;
+  }
+
+  .col-12 {
+    flex-basis: calc((100% / 12) * 12);
+  }
+
+}
