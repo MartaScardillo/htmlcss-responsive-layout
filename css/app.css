@@ -18,6 +18,10 @@ img {
   width: 100%;
 }
 
+figure > img {
+  display: block;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
@@ -83,6 +87,10 @@ a {
     align-items: center;
 }
 
+.bg-lightblue {
+  background-color: var(--light-blue);
+}
+
 /* COMPONENT CLASSES */
 
 .button {
@@ -98,12 +106,26 @@ a {
 
 .page-header {
   background-color: var(--blue);
+  padding: 15px;
 }
 
 .navbar-list {
   display: flex;
   gap: 22px;
 }
+
+.navbar-list_item {
+  color: white;
+}
+
+.ham-menu {
+  color: white;
+  display: none;
+}
+
+/* HERO */
+
+
 
 /* DEBUG */
 
@@ -122,4 +144,23 @@ a {
 .debug [class^="col"] {
   border: 1px solid cadetblue;
   padding: 10px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 770px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .navbar-list {
+    display: none;
+  }
+
+  .ham-menu {
+    display: block;
+  }
+
 }
