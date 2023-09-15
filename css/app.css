@@ -125,7 +125,9 @@ a {
 
 /* HERO */
 
-
+.hero_img {
+  width: 250px;
+}
 
 /* DEBUG */
 
