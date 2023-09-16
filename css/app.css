@@ -303,6 +303,25 @@ a {
   .hero_button {
     margin: 20px 100px 20px 10px;
   }
+
+  /* MAIN */
+
+  /* STRATEGIC PLANNING */
+
+  .strategic-planning > .row {
+    flex-direction: column;
+  }
+
+  .strat_title {
+    font-size: 60px;
+  }
+
+  /* APP DEVELOPMENT */
+
+  .app_img {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 576px) {
