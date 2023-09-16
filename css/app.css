@@ -236,6 +236,10 @@ a {
   padding-bottom: 20px;
 }
 
+.app_p {
+  font-style: italic;
+}
+
 .arrow {
   margin: 45px 0;
 }
