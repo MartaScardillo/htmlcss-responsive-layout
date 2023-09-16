@@ -334,4 +334,12 @@ a {
   .col-12 {
     flex-basis: calc((100% / 12) * 12);
   }
+
+  /* MAIN */
+
+  /* STRATEGIC PLANNING */
+
+  .strat_title {
+    font-size: 40px;
+  }
 }
