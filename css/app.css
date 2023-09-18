@@ -373,6 +373,10 @@ a {
 
 /* CALL TO ACTION */
 
+.cta {
+  padding: 30px;
+}
+
 .cta_title {
   font-size: 3em;
 }
