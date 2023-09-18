@@ -235,7 +235,6 @@ a {
 
 .app-development {
   border-radius: 50px;
-  
 }
 
 .app_img {
@@ -304,7 +303,7 @@ a {
 }
 
 .benefits_number {
-  font-size: 80px
+  font-size: 80px;
 }
 
 .benefits_name {
@@ -320,6 +319,52 @@ a {
 .benefits_button {
   padding: 0 40px;
   display: inline-block;
+}
+
+/* ABOUT */
+
+.about {
+  padding: 40px;
+}
+
+.about_title {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.about_p {
+  font-size: 20px;
+  padding-bottom: 30px;
+  line-height: 45px;
+}
+
+.about_img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.about_img > img {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  width: 250px;
+}
+
+.about .col-4 {
+  padding: 30px;
+}
+
+.about_p--help {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.about_quote {
+  position: absolute;
+  right: 0;
+  font-size: 100px;
 }
 
 /* DEBUG */
@@ -400,10 +445,15 @@ a {
 
   /* BENEFITS */
 
-.benefits .col-4 {
-  flex-basis: 50%;
-}
+  .benefits .col-4 {
+    flex-basis: 50%;
+  }
 
+  /* ABOUT */
+
+  .about .col-8, .about .col-4 {
+    flex-basis: 50%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -445,4 +495,9 @@ a {
     flex-basis: 100%;
   }
 
+  /* ABOUT */
+
+  .about .col-8 {
+    flex-basis: 100%;
+  }
 }
