@@ -299,7 +299,7 @@ a {
 }
 
 .benefits_card {
-  border-radius: 50px;
+  border-radius: 20px;
   padding: 30px;
 }
 
@@ -398,8 +398,11 @@ a {
     width: 100%;
   }
 
-  /* TESTIMONIAL */
+  /* BENEFITS */
 
+.benefits .col-4 {
+  flex-basis: 50%;
+}
 
 }
 
@@ -435,4 +438,11 @@ a {
   .quote {
     text-align: center;
   }
+
+  /* BENEFITS */
+
+  .benefits .col-4 {
+    flex-basis: 100%;
+  }
+
 }
