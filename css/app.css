@@ -127,13 +127,16 @@ a {
   color: white;
 }
 
+.text_purple {
+  color: var(--purple);
+}
+
 /* COMPONENT CLASSES */
 
 .button {
   color: black;
   line-height: 40px;
   text-align: center;
-  background-color: white;
   border-radius: 20px;
   padding: 0 18px;
 }
@@ -258,6 +261,8 @@ a {
   border-radius: 50%;
 }
 
+/* TESTIMONIALS */
+
 .testimonials_header {
   padding: 30px;
 }
@@ -284,6 +289,37 @@ a {
 .quote_testimonial {
   padding: 20px;
   font-size: 20px;
+}
+
+/* BENEFITS */
+
+.benefits_title {
+  font-size: 40px;
+  padding: 40px 0;
+}
+
+.benefits_card {
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.benefits_number {
+  font-size: 80px
+}
+
+.benefits_name {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.benefits_text {
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.benefits_button {
+  padding: 0 40px;
+  display: inline-block;
 }
 
 /* DEBUG */
