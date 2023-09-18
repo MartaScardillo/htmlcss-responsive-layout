@@ -111,6 +111,10 @@ a {
   background-color: var(--light);
 }
 
+.bg-darkgray {
+  background-color: var(--dark-gray);
+}
+
 .no-padding {
   padding: 0;
 }
@@ -129,6 +133,11 @@ a {
 
 .text_purple {
   color: var(--purple);
+}
+
+.blue-link {
+  color: var(--purple);
+  text-decoration: underline;
 }
 
 /* COMPONENT CLASSES */
@@ -219,7 +228,7 @@ a {
 /* STRATEGIC PLANNING */
 
 .strategic-planning > .row {
-  padding: 50px;
+  padding: 50px 0;
 }
 
 .strategic_img {
@@ -266,6 +275,16 @@ a {
 
 /* TESTIMONIALS */
 
+.testimonials_title {
+  font-size: 3em;
+  color: var(--purple);
+  padding: 20px 0;
+}
+
+.testimonials_text {
+  font-size: 20px;
+}
+
 .testimonials_header {
   padding: 30px;
 }
@@ -295,6 +314,10 @@ a {
 }
 
 /* BENEFITS */
+
+.benefits {
+  padding: 30px;
+}
 
 .benefits_title {
   font-size: 40px;
@@ -396,6 +419,21 @@ a {
   display: inline-block;
   padding: 20px 120px;
   border-radius: 50px;
+}
+
+.copyright {
+  padding-top: 20px;
+}
+
+
+/* FOOTER */
+
+.footer_top {
+  padding-top: 40px;
+}
+
+.footer_bottom {
+  padding: 40px;
 }
 
 /* DEBUG */
